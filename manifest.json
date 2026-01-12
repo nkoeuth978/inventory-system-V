@@ -1,25 +1,6 @@
-{
-  "short_name": "Lens",
-  "name": "Lens Inventory",
-  "icons": [
-    {
-      "src": "favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
-    },
-    {
-      "src": "android-chrome-192x192.png",
-      "type": "image/png",
-      "sizes": "192x192"
-    },
-    {
-      "src": "android-chrome-512x512.png",
-      "type": "image/png",
-      "sizes": "512x512"
-    }
-  ],
-  "start_url": ".",
-  "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
-}
+git init
+git add .
+git commit -m "Initial inventory system"
+git branch -M main
+git remote add origin https://github.com/YOUR_USERNAME/inventory-system.git
+git push -u origin main
